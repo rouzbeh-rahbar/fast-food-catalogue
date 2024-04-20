@@ -1,9 +1,10 @@
 import "./App.css";
+import Header from "./Header/header";
 
 function App() {
   return (
-    <div>
-      <h1>فست فود کاتالوگ</h1>
+    <div className="wrapper bg-faded-dark">
+      <Header></Header>
     </div>
   );
 }
